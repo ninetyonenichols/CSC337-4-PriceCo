@@ -9,6 +9,18 @@ Purpose:
     padding: 0;
 }
 
+h1 {
+    padding: 0 0 20px 0;
+}
+
+#navigation > a {
+    display: block;
+    padding: 30px 15px 0 0;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+}
+
 .productImg {
     padding: 15px 0 5px 0;
     width: 150px;
@@ -18,32 +30,34 @@ Purpose:
     position: fixed;    
     bottom: 20px;
     width: 150px;
-    height: 60px;
+    height: 1.5em;
     background-color: gray;
+    text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0.85;
+}
+
+#header, #navigation {
+    height: 270px;
+    width: 300px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    border: 5px solid gray;
 }
 
 #header {
     float: left;
-    height: 300px;
-    width: 400px;
-    background-color: purple;
-    color: white;
-    text-align: center;
 }
 
 #pricecoLogo {
     width: 100px;
+    padding: 0 0 20px 0;
 }
 
 #navigation {
     float: right;
-    height: 300px;
-    width: 400px;
-    background-color: purple;
-    color: white;
 }
 
 #content {
@@ -58,9 +72,9 @@ Purpose:
 }
 
 #styleB {
-    left: 210px;
+    left: 200px;
 }
 
 #styleC {
-    left: 390px;
+    left: 370px;
 }
