@@ -1,7 +1,13 @@
 /*
 Author: Justin Nichols
 Class: CSC337 (Web Development)
-Purpose:
+Purpose: This file contains one of three styles that can be chosen for the website.
+
+TODO:
+Fix header
+Fix text/img alignment in .content
+Add colors
+
 */
 
 * {
@@ -9,12 +15,84 @@ Purpose:
     padding: 0;
 }
 
-body {
+html, body {
     height: 100%;
+}
+
+#header > div > h1, div {
+    text-align: right;
+    clear: right;
+    overflow: hidden;
+}
+
+#header > h1 {
+}
+
+#header > div {
+    height: 100%;
+    float: left;
+}
+
+h1 {
+}
+
+.styleButton {
+    position: fixed;    
+    bottom: 20px;
+    width: 150px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    font-size: 40px;
+    opacity: 0.85;
+}
+
+.navButton {
+    display: block;
+    padding: 10% 20px 0 0;
+}
+
+.productImg {
+    margin: 0 auto;
+    width: 25%;
+}
+
+#header {
+    width: 100%;
+    background-color: purple;
+    height: 20%;
+    color: white;
+    float: left;
+}
+
+#pricecoLogo {
+    float: left;
+    height: 100%;
+}
+
+#navigation {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
 }
 
 #content {
     padding: 15px 20px;
-    height: 100%;
+    float: right;
+    width: 70%;
     background-color: lightgray;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#styleA {
+    left: 30px;
+}
+
+#styleB {
+    left: 210px;
+}
+
+#styleC {
+    left: 390px;
 }
