@@ -15,8 +15,12 @@ html, body {
     height: 100%;
 }
 
+h1 {
+    padding: 22px 5px;
+}
+
 .productImg {
-    padding: 15px 0 5px 0;
+    padding: 15px 0 3px 0;
     width: 150px;
 }
 
@@ -24,7 +28,6 @@ html, body {
     display: block;
     padding: 30px 15px 0 0;
     color: white;
-    text-align: center;
     font-size: 18px;
 }
 
@@ -43,15 +46,15 @@ html, body {
 #header, #navigation {
     position: fixed;
     width: 34%;
-    background-color: purple;
     color: white;
+    text-align: center;
     box-sizing: border-box;
-    border: 5px solid gray;
 }
 
 #header {
     right: 33%;
     height: 34%;
+    background-color: purple;
 }
 
 #pricecoLogo {
@@ -64,6 +67,7 @@ html, body {
     top: 34%;
     right: 33%;
     height: 66%;
+    background-color: darkblue;
 }
 
 #content {

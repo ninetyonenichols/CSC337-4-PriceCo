@@ -42,7 +42,6 @@ h1 {
 #header, #navigation {
     height: 270px;
     width: 300px;
-    background-color: purple;
     text-align: center;
     color: white;
     border: 5px solid gray;
@@ -50,6 +49,7 @@ h1 {
 
 #header {
     float: left;
+    background-color: purple;
 }
 
 #pricecoLogo {
@@ -59,6 +59,7 @@ h1 {
 
 #navigation {
     float: right;
+    background-color: darkblue;
 }
 
 #content {
