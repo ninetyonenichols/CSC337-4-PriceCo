@@ -1,13 +1,8 @@
 /*
 Author: Justin Nichols
 Class: CSC337 (Web Development)
-Purpose: This file contains one of three styles that can be chosen for the website.
-
-TODO:
-Fix header
-Fix text/img alignment in .content
-Add colors
-
+Purpose: Provides one of three available styles for the website.
+         The user can toggle these styles using buttons at the bottom of each page.
 */
 
 * {
@@ -19,13 +14,10 @@ html, body {
     height: 100%;
 }
 
-#header > div > h1, div {
+#header > div > h1, #header > div {
     text-align: right;
     clear: right;
     overflow: hidden;
-}
-
-#header > h1 {
 }
 
 #header > div {
@@ -33,23 +25,29 @@ html, body {
     float: left;
 }
 
-h1 {
+.navButton {
+    display: block;
+    padding: 30px 15px 0 0;
+    color: white;
+    text-align: right;
+    font-size: 18px;
 }
 
 .styleButton {
     position: fixed;    
     bottom: 20px;
     width: 150px;
-    height: 60px;
+    height: 1.5em;
     background-color: gray;
+    text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0.85;
 }
 
 .navButton {
     display: block;
-    padding: 10% 20px 0 0;
+    padding: 40px 20px 0 0;
 }
 
 .productImg {
@@ -57,12 +55,17 @@ h1 {
     width: 25%;
 }
 
+#header, #navigation {
+    position: fixed;
+    background-color: purple;
+    color: white;
+    box-sizing: border-box;
+    border: 5px solid gray;
+}
+
 #header {
     width: 100%;
-    background-color: purple;
     height: 20%;
-    color: white;
-    float: left;
 }
 
 #pricecoLogo {
@@ -72,15 +75,18 @@ h1 {
 
 #navigation {
     float: left;
+    top: 20%;
+    height: 80%;
     width: 30%;
-    box-sizing: border-box;
 }
 
 #content {
+    margin-top: 10%;
     padding: 15px 20px;
     float: right;
     width: 70%;
-    background-color: lightgray;
+    background-color: black;
+    color: white;
     box-sizing: border-box;
     text-align: center;
 }
@@ -90,9 +96,9 @@ h1 {
 }
 
 #styleB {
-    left: 210px;
+    left: 200px;
 }
 
 #styleC {
-    left: 390px;
+    left: 370px;
 }
