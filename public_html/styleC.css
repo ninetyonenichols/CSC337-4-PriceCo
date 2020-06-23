@@ -11,7 +11,7 @@ Purpose: Provides one of three available styles for the website.
 }
 
 h1 {
-    padding: 0 0 20px 0;
+    padding-bottom: 20px;
 }
 
 .productImg {
